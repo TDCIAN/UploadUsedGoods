@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1E741FF827DAD827006554F6 /* TitleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E741FF727DAD827006554F6 /* TitleTextFieldCell.swift */; };
 		1E741FFA27DAD832006554F6 /* TitleTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E741FF927DAD832006554F6 /* TitleTextFieldCellViewModel.swift */; };
+		1E741FFE27DAD9B2006554F6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E741FFD27DAD9B2006554F6 /* Category.swift */; };
+		1E74200227DADA66006554F6 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74200127DADA66006554F6 /* CategoryViewModel.swift */; };
 		1EB586BE27DA37D700E9A5BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB586BD27DA37D700E9A5BB /* AppDelegate.swift */; };
 		1EB586C027DA37D700E9A5BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB586BF27DA37D700E9A5BB /* SceneDelegate.swift */; };
 		1EB586C727DA37D900E9A5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB586C627DA37D900E9A5BB /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1E741FF727DAD827006554F6 /* TitleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCell.swift; sourceTree = "<group>"; };
 		1E741FF927DAD832006554F6 /* TitleTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		1E741FFD27DAD9B2006554F6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1E74200127DADA66006554F6 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		1EB586BA27DA37D700E9A5BB /* UploadUsedGoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadUsedGoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB586BD27DA37D700E9A5BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EB586BF27DA37D700E9A5BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 				1EB586DB27DA38B600E9A5BB /* MainViewController.swift */,
 				1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */,
 				1E741FFC27DAD846006554F6 /* TitleTextFieldCell */,
+				1E74200127DADA66006554F6 /* CategoryViewModel.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -66,6 +71,22 @@
 				1E741FF927DAD832006554F6 /* TitleTextFieldCellViewModel.swift */,
 			);
 			path = TitleTextFieldCell;
+			sourceTree = "<group>";
+		};
+		1E741FFF27DAD9B8006554F6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1E741FFD27DAD9B2006554F6 /* Category.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1E74200027DAD9C7006554F6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E741FF627DAD80A006554F6 /* MainViewController */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		1EB586B127DA37D700E9A5BB = {
@@ -89,7 +110,8 @@
 			children = (
 				1EB586BD27DA37D700E9A5BB /* AppDelegate.swift */,
 				1EB586BF27DA37D700E9A5BB /* SceneDelegate.swift */,
-				1E741FF627DAD80A006554F6 /* MainViewController */,
+				1E741FFF27DAD9B8006554F6 /* Entity */,
+				1E74200027DAD9C7006554F6 /* Presentation */,
 				1EB586C627DA37D900E9A5BB /* Assets.xcassets */,
 				1EB586C827DA37D900E9A5BB /* LaunchScreen.storyboard */,
 				1EB586CB27DA37D900E9A5BB /* Info.plist */,
@@ -181,8 +203,10 @@
 				1E741FFA27DAD832006554F6 /* TitleTextFieldCellViewModel.swift in Sources */,
 				1EB586C027DA37D700E9A5BB /* SceneDelegate.swift in Sources */,
 				1EB586DC27DA38B700E9A5BB /* MainViewController.swift in Sources */,
+				1E74200227DADA66006554F6 /* CategoryViewModel.swift in Sources */,
 				1E741FF827DAD827006554F6 /* TitleTextFieldCell.swift in Sources */,
 				1EB586DE27DA393C00E9A5BB /* MainViewModel.swift in Sources */,
+				1E741FFE27DAD9B2006554F6 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
