@@ -23,6 +23,7 @@
 		1EB586DE27DA393C00E9A5BB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */; };
 		1EFA107927DF7B0200CAA63D /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */; };
 		1EFA107C27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */; };
+		1EFA107E27DF7F9F00CAA63D /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA107D27DF7F9F00CAA63D /* PriceTextFieldCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 		1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		1EFA107D27DF7F9F00CAA63D /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,7 @@
 				1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */,
 				1E741FFC27DAD846006554F6 /* TitleTextFieldCell */,
 				1EFA107A27DF7DBE00CAA63D /* CategoryViewController */,
-				1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */,
+				1EFA107F27DF821C00CAA63D /* PriceTextFieldCell */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -131,6 +133,15 @@
 				1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */,
 			);
 			path = CategoryViewController;
+			sourceTree = "<group>";
+		};
+		1EFA107F27DF821C00CAA63D /* PriceTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */,
+				1EFA107D27DF7F9F00CAA63D /* PriceTextFieldCell.swift */,
+			);
+			path = PriceTextFieldCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 				1EFA107927DF7B0200CAA63D /* CategoryListViewController.swift in Sources */,
 				1EB586C027DA37D700E9A5BB /* SceneDelegate.swift in Sources */,
 				1EB586DC27DA38B700E9A5BB /* MainViewController.swift in Sources */,
+				1EFA107E27DF7F9F00CAA63D /* PriceTextFieldCell.swift in Sources */,
 				1E74200227DADA66006554F6 /* CategoryViewModel.swift in Sources */,
 				1E741FF827DAD827006554F6 /* TitleTextFieldCell.swift in Sources */,
 				1EB586DE27DA393C00E9A5BB /* MainViewModel.swift in Sources */,
