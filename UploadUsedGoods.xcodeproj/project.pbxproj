@@ -22,6 +22,7 @@
 		1EB586DC27DA38B700E9A5BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB586DB27DA38B600E9A5BB /* MainViewController.swift */; };
 		1EB586DE27DA393C00E9A5BB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */; };
 		1EFA107927DF7B0200CAA63D /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */; };
+		1EFA107C27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1EB586DB27DA38B600E9A5BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 				1EB586DB27DA38B600E9A5BB /* MainViewController.swift */,
 				1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */,
 				1E741FFC27DAD846006554F6 /* TitleTextFieldCell */,
-				1E74200127DADA66006554F6 /* CategoryViewModel.swift */,
-				1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */,
+				1EFA107A27DF7DBE00CAA63D /* CategoryViewController */,
+				1EFA107B27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -120,6 +122,15 @@
 				1EB586CB27DA37D900E9A5BB /* Info.plist */,
 			);
 			path = UploadUsedGoods;
+			sourceTree = "<group>";
+		};
+		1EFA107A27DF7DBE00CAA63D /* CategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E74200127DADA66006554F6 /* CategoryViewModel.swift */,
+				1EFA107827DF7B0100CAA63D /* CategoryListViewController.swift */,
+			);
+			path = CategoryViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			files = (
 				1EB586BE27DA37D700E9A5BB /* AppDelegate.swift in Sources */,
 				1E741FFA27DAD832006554F6 /* TitleTextFieldCellViewModel.swift in Sources */,
+				1EFA107C27DF7E1700CAA63D /* PriceTextFieldCellViewModel.swift in Sources */,
 				1EFA107927DF7B0200CAA63D /* CategoryListViewController.swift in Sources */,
 				1EB586C027DA37D700E9A5BB /* SceneDelegate.swift in Sources */,
 				1EB586DC27DA38B700E9A5BB /* MainViewController.swift in Sources */,
