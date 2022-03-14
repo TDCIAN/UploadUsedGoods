@@ -26,6 +26,7 @@
 		1EFA107E27DF7F9F00CAA63D /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA107D27DF7F9F00CAA63D /* PriceTextFieldCell.swift */; };
 		1EFA108127DF82B700CAA63D /* DetailWriteFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA108027DF82B700CAA63D /* DetailWriteFormCell.swift */; };
 		1EFA108327DF82C400CAA63D /* DetailWriteFormCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA108227DF82C400CAA63D /* DetailWriteFormCellViewModel.swift */; };
+		1EFA108627DF8ABD00CAA63D /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA108527DF8ABD00CAA63D /* MainModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		1EFA107D27DF7F9F00CAA63D /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
 		1EFA108027DF82B700CAA63D /* DetailWriteFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCell.swift; sourceTree = "<group>"; };
 		1EFA108227DF82C400CAA63D /* DetailWriteFormCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCellViewModel.swift; sourceTree = "<group>"; };
+		1EFA108527DF8ABD00CAA63D /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				1EB586DB27DA38B600E9A5BB /* MainViewController.swift */,
 				1EB586DD27DA393C00E9A5BB /* MainViewModel.swift */,
+				1EFA108527DF8ABD00CAA63D /* MainModel.swift */,
 				1E741FFC27DAD846006554F6 /* TitleTextFieldCell */,
 				1EFA107A27DF7DBE00CAA63D /* CategoryViewController */,
 				1EFA107F27DF821C00CAA63D /* PriceTextFieldCell */,
@@ -248,6 +251,7 @@
 				1EFA108327DF82C400CAA63D /* DetailWriteFormCellViewModel.swift in Sources */,
 				1E74200227DADA66006554F6 /* CategoryViewModel.swift in Sources */,
 				1E741FF827DAD827006554F6 /* TitleTextFieldCell.swift in Sources */,
+				1EFA108627DF8ABD00CAA63D /* MainModel.swift in Sources */,
 				1EB586DE27DA393C00E9A5BB /* MainViewModel.swift in Sources */,
 				1EFA108127DF82B700CAA63D /* DetailWriteFormCell.swift in Sources */,
 				1E741FFE27DAD9B2006554F6 /* Category.swift in Sources */,
