@@ -10,10 +10,14 @@ import RxCocoa
 struct CategoryViewModel {
     let disposeBag = DisposeBag()
     
+    // ViewModel -> View
     let cellData: Driver<[Category]>
     let pop: Signal<Void>
+    
+    // View -> ViewModel
     let itemSelected = PublishRelay<Int>()
     
+    // ViewModel -> ParentsViewModel
     let selectedCategory = PublishRelay<Category>()
     
     init() {
